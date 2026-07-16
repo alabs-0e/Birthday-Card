@@ -9,7 +9,7 @@ export default function GlassCard({ opened, setOpened }) {
             <div
   className={`
     w-85
-    ${opened ? "h-130" : "h-64"}
+    ${opened ? "h-140" : "h-64"}
     rounded-4xl
     border border-white/15
     bg-white/10
