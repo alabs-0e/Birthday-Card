@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%,100%{
+    opacity:.2;
+    transform:scale(1);
+  }
+
+  50%{
+    opacity:.8;
+    transform:scale(1.4);
+  }
+}
+.animate-twinkle {
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp .8s ease forwards;
+}
+@keyframes sparkleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+    opacity: .3;
+  }
+
+  50% {
+    transform: translateY(-6px);
+    opacity: .8;
+  }
+}
+
+.animate-sparkle {
+  animation: sparkleFloat 3s ease-in-out infinite;
+}
