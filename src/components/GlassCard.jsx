@@ -4,7 +4,20 @@ import Sparkles from "./Sparkles";
 export default function GlassCard({ opened, setOpened }) {
     return (
         <div className="relative flex flex-col items-center">
-            
+            <img src="k.jpg" alt="Birthday girl"  className={`
+    absolute
+    -top-6
+    -left-6
+    ${opened ? "w-18 h-18" : "w-22 h-22"}
+    rounded-full
+    object-cover
+    border-2 border-white/30
+    ring-4 ring-white/10
+    shadow-2xl
+    animate-float
+    transition-all duration-700 ease-out
+    z-10
+  `} />
             {opened && <Sparkles />}
             <div
   className={`

@@ -8,7 +8,7 @@ import BirthdayConfetti from "./components/Confetti";export default function App
     {opened && <BirthdayConfetti />}
       <Background />
 
-      <main className="min-h-screen flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center pt-10">
         <GlassCard
           opened={opened}
           setOpened={setOpened}
