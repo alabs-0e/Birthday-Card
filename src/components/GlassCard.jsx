@@ -4,7 +4,7 @@ import Sparkles from "./Sparkles";
 export default function GlassCard({ opened, setOpened }) {
     return (
         <div className="relative flex flex-col items-center">
-            <img src="k.jpg" alt="Birthday girl"  className={`
+            <img src="./k.jpg" alt="Birthday girl"  className={`
     absolute
     -top-6
     -left-6
